@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* images&background*/
+
+body {
+    background-color: #E2D8E3;
+}
+
+/* text&fonts*/
+
+@font-face{
+	font-family:Multicolore;
+	src:url("Multicolore.otf");
+}
+
+h1 {
+    color: #ffffff;
+	font-family: Multicolore;
+}
+p {
+    color: #ffffff;
+	font-family: Multicolore; 
+}
+
+.headertext{
+	align-content: center;
+	color: #4B274C;
+	font-family: Multicolore;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+    width: auto;
+	align-content: auto;
+	align-self: auto;
+}
+
+nav {
+    margin-left:0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    width:auto;
+    height:auto;
+    background-color:#4B274C;
+    align-content:center;
+    padding: 120px;
+	
+}
+
+
+
+/*
+
+This is for the style tag.
+ |
+\/
+*/
+
+.hellonav {
+    margin-left:0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    width:auto;
+    height:auto;
+    background-color:#4B274C;
+    align-content:center;
+
+
+}
+
+.headersize{
+
+    display: block;
+    
+}
+
+.headersizee{
+
+    display: block;
+
+}
