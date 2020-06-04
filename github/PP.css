@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* images&background*/
+
+body {
+    background-color: #E2D8E3;
+}
+
+/* text&fonts*/
+
+@font-face{
+	font-family:Multicolore;
+	src:url("Multicolore.otf");
+}
+
+h1 {
+    color: #ffffff;
+	font-family: Multicolore;
+}
+p {
+    color: #ffffff;
+	font-family: Multicolore;
+}
+
+.headertext{
+	align-content: center;
+	color: #4B274C;
+	font-family: Multicolore;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+    width: auto;
+	align-content: auto;
+	align-self: auto;
+}
+
+nav {
+    margin-left:0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    width:auto;
+    height:auto;
+    background-color:#4B274C;
+    align-content:center;
+    padding: 100px;
+
+}
+
+
+
+/*
+
+This is for the style tag.
+ |
+\/
+*/
+
+.hellonav {
+    margin-left:0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+    width:auto;
+    height:auto;
+    background-color:#4B274C;
+    align-content:center;
+
+
+}
+
+.headersize{
+
+    display: block;
+
+}
+
+.headersizee{
+
+    display: block;
+
+}
+
+.hfix {
+  text-decoration-line: underline;
+  text-decoration-style: straight;
+  text-decoration-color: white;
+}
+
+#image{
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+#banner{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 40%;
+  object-fit: contain;
+  text-align: center;
+
+}
+
+
+/*Side bar*/
+
+.button{
+
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  top: 10px;
+  left: 0;
+  background-color: #4B274C;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-family:Multicolore;
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.sidenav {
+  height: 240px;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 55px;
+  left: 0;
+  background-color: #4B274C;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family:Multicolore;
+}
+
+
+
+.sidenava {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 18px;
+color: #818181;
+display: block;
+}
+
+
+@media screen and (min-width: 1400px){
+
+.button {display: none;}
+.sidenav {display: none;}
+.sidenava {display: none;}
+.hellonav {display: none;}
+.headersizee {display: none;}
+
+
+}
+
+@media screen and (max-width: 1399.99px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 25px;}
+.headertext { display: none; }
+nav {display: none; }
+.headersize {display: none;}
+
+}
